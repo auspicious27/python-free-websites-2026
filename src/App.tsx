@@ -7,6 +7,7 @@ import CurriculumSection from './components/sections/CurriculumSection'
 import HowItWorksSection from './components/sections/HowItWorksSection'
 import WhoIsItForSection from './components/sections/WhoIsItForSection'
 import WhyCourseSection from './components/sections/WhyCourseSection'
+import TestimonialsSection from './components/sections/TestimonialsSection'
 import OutcomesSection from './components/sections/OutcomesSection'
 import FinalCTASection from './components/sections/FinalCTASection'
 
@@ -22,6 +23,7 @@ export default function App() {
         <HowItWorksSection />
         <WhoIsItForSection />
         <WhyCourseSection />
+        <TestimonialsSection />
         <OutcomesSection />
         <FinalCTASection />
       </main>
