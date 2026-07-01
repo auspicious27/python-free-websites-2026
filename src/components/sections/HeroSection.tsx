@@ -54,7 +54,7 @@ export default function HeroSection() {
             <div className="w-px h-4 bg-white/10 hidden sm:block" />
             <div className="flex items-center gap-2">
               <svg className="w-4 h-4 text-primary flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
-              <span className="text-text-primary text-sm font-bold">7:30 PM – 9:30 PM IST</span>
+              <span className="text-text-primary text-sm font-bold">4:15 PM – 6:30 PM IST</span>
             </div>
             <div className="w-px h-4 bg-white/10 hidden sm:block" />
             <div className="flex items-center gap-2">
