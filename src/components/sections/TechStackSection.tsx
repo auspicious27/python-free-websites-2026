@@ -2,26 +2,25 @@ import { useRef } from 'react'
 import { motion, useScroll, useTransform, MotionValue } from 'framer-motion'
 
 const row1 = [
-  'Python Fundamentals', 'Object-Oriented Programming', 'Data Structures & Algorithms',
-  'File Handling & CSV', 'API Integration', 'Cloud Automation',
-  'Exception Handling', 'Functions & Modules', 'Real-World Applications',
-  'List & Dictionary Operations', 'Web Scraping Basics', 'Database Connectivity',
-  'Smart Automation', 'Invoice Generation',
+  'Python Fundamentals', 'AWS Cloud Computing', 'Amazon EC2 Automation',
+  'Boto3 SDK', 'IAM Users & Roles', 'Cloud Infrastructure',
+  'Serverless Lambda', 'Amazon S3 Storage', 'DynamoDB NoSQL',
+  'API Integration', 'CloudWatch Monitoring', 'AWS Free Tier',
+  'Object-Oriented Programming', 'File Handling & CSV',
 ]
 const row2 = [
-  'Variables & Data Types', 'Control Flow & Loops', 'String Manipulation',
-  'Reusable Code Architecture', 'JSON Processing', 'REST API Integration',
-  'Error Handling Patterns', 'os & shutil Automation', 'Project-Based Learning',
-  'Menu-Driven Programs', 'Budget Tracking Systems', 'Student Management',
-  'Library Systems', 'Contact Management',
+  'Amazon SNS Notifications', 'Amazon SES Email', 'AWS CLI Configuration',
+  'Security Groups', 'Elastic IP', 'Instance Types',
+  'Key Pairs & AMI', 'Event-Driven Architecture', 'Cloud Cost Optimization',
+  'Python Automation Scripts', 'JSON Processing', 'REST APIs',
+  'Exception Handling', 'Production Deployment',
 ]
 const row3 = [
-  'Clean Code Practices', 'Debugging Techniques', 'Type Casting & Operators',
-  'Nested Data Structures', 'File I/O Operations', 'CSV Data Processing',
-  'Class & Object Design', 'Encapsulation Patterns', 'Package Management',
-  'Live Weather APIs', 'Billing Systems', 'GST Calculations',
-  'Report Generation', 'Automated File Sorting', 'Industrial Automation',
-  'Portfolio Development', 'Professional Certification', 'Career-Ready Skills',
+  'Amazon Bedrock AI', 'Amazon Rekognition', 'Amazon Translate',
+  'Generative AI on AWS', 'Cloud Resource Management', 'Infrastructure Automation',
+  'Serverless File Processing', 'Health Monitoring Systems', 'Automated Backup',
+  'Cloud Inventory Reports', 'CSV Export', 'Real-Time Alerts',
+  'Python + AWS Portfolio', 'Summer Internship Certificate', 'Industry-Ready Skills',
 ]
 
 const repeat = (arr: string[], times = 5) => Array.from({ length: times }, () => arr).flat()

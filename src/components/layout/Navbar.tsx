@@ -22,7 +22,7 @@ export default function Navbar() {
         <div className="flex items-center justify-between h-16">
           <a href="/" className="flex items-center gap-2 group">
             <img src="/python.svg" alt="Python" className="h-8 w-auto" />
-            <span className="text-text-primary font-semibold text-sm hidden sm:block">Python Bootcamp™</span>
+            <span className="text-text-primary font-semibold text-sm hidden sm:block">Python With AWS Cloud™</span>
           </a>
           <div className="hidden md:flex items-center gap-8">
             {navLinks.map((link) => (

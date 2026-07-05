@@ -30,7 +30,7 @@ export default function Footer() {
               India's leading technology education institute. Empowering engineers with real-world AI, Python, and cloud skills.
             </p>
             <p className="text-text-secondary text-xs">
-              <span className="text-primary font-semibold">Python Bootcamp™</span>
+              <span className="text-primary font-semibold">Python With AWS Cloud™</span>
               <br />Build Real-World Applications: From Zero to Industry-Ready in 10 Days
             </p>
           </div>

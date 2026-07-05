@@ -4,15 +4,16 @@ import TypewriterCode from '../ui/TypewriterCode'
 import { whatYouBuild } from '../../data'
 
 const codeLines = [
-  { text: 'def add_expense(expenses, cat, amt):' },
-  { text: '    expenses.append({' },
-  { text: '        "category": cat,' },
-  { text: '        "amount": amt })' },
-  { text: '    return expenses' },
+  { text: 'import boto3' },
   { text: '' },
-  { text: 'def budget_alert(total, limit):' },
-  { text: '    if total > limit:' },
-  { text: '        print("⚠️ Over budget!")' },
+  { text: 'ec2 = boto3.client("ec2")' },
+  { text: '' },
+  { text: 'def launch_instance(ami, type):' },
+  { text: '    response = ec2.run_instances(' },
+  { text: '        ImageId=ami,' },
+  { text: '        InstanceType=type,' },
+  { text: '        MinCount=1, MaxCount=1)' },
+  { text: '    return response["Instances"][0]' },
 ]
 
 export default function WhatYouBuildSection() {
@@ -46,7 +47,7 @@ export default function WhatYouBuildSection() {
                   <div className="w-3 h-3 rounded-full bg-yellow-500/60" />
                   <div className="w-3 h-3 rounded-full bg-green-500/60" />
                 </div>
-                <span className="text-text-secondary text-xs ml-2 font-mono">expense_tracker.py</span>
+                <span className="text-text-secondary text-xs ml-2 font-mono">aws_automation.py</span>
               </div>
 
               {/* Typing Code */}
@@ -58,9 +59,9 @@ export default function WhatYouBuildSection() {
               <div className="px-5 py-3 border-t border-white/5 flex items-center justify-between">
                 <div className="flex items-center gap-2">
                   <span className="w-2 h-2 rounded-full bg-green-400 animate-pulse" />
-                  <span className="text-green-400 text-xs font-medium">Budget Tracked</span>
+                  <span className="text-green-400 text-xs font-medium">EC2 Launched</span>
                 </div>
-                <span className="text-text-secondary text-xs font-mono">functions + dicts</span>
+                <span className="text-text-secondary text-xs font-mono">boto3 + ec2 active</span>
               </div>
             </div>
           </AnimatedSection>

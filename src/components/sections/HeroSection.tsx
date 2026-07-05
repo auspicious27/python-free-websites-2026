@@ -14,7 +14,7 @@ export default function HeroSection() {
         <div className="flex justify-center mb-8">
           <div className="inline-flex items-center gap-2.5 px-4 py-2 rounded-full border border-primary/25 bg-primary/5">
             <span className="w-2 h-2 rounded-full bg-primary animate-pulse" />
-            <span className="text-primary text-xs font-semibold tracking-[0.15em] uppercase">Python · Cloud · Automation</span>
+            <span className="text-primary text-xs font-semibold tracking-[0.15em] uppercase">Python · AWS Cloud · Automation</span>
             <span className="w-2 h-2 rounded-full bg-primary animate-pulse" />
           </div>
         </div>
@@ -24,7 +24,7 @@ export default function HeroSection() {
           <h1 className="text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-black tracking-tight">
             <span className="block text-text-primary leading-tight">Your Future Starts With</span>
             <span className="block pb-2" style={{ background: 'linear-gradient(135deg, #e63946 0%, #ff4d5a 50%, #ffffff 80%, #e63946 100%)', backgroundSize: '300% auto', WebkitBackgroundClip: 'text', WebkitTextFillColor: 'transparent', backgroundClip: 'text', animation: 'shimmer 4s linear infinite', filter: 'drop-shadow(0 0 30px rgba(230,57,70,0.4))', lineHeight: '1.1' }}>
-              Python Mastery
+              Python + AWS Cloud
             </span>
           </h1>
         </div>
@@ -32,9 +32,9 @@ export default function HeroSection() {
         {/* Subheadline */}
         <div className="text-center mb-10">
           <p className="text-text-secondary text-lg sm:text-xl md:text-2xl leading-relaxed max-w-3xl mx-auto">
-            Don't just learn Python — <span className="text-white font-semibold">build real applications that get you hired.</span>
+            Don't just learn Python — <span className="text-white font-semibold">build real AWS cloud applications that get you hired.</span>
             <br className="hidden sm:block" />
-            <span className="text-text-secondary/70 text-base sm:text-lg">10 Days · 8+ Projects · FREE Summer Internship</span>
+            <span className="text-text-secondary/70 text-base sm:text-lg">10 Days · 5+ AWS Projects · FREE Summer Internship</span>
           </p>
         </div>
 
@@ -88,7 +88,7 @@ export default function HeroSection() {
                   {/* Input Layer */}
                   <div className="flex flex-col gap-3">
                     <div className="text-text-secondary/50 text-xs font-mono uppercase tracking-widest mb-1 text-center md:text-left">Input Layer</div>
-                    {['Fundamentals', 'Data Structures', 'OOP Concepts'].map(item => (
+                    {['Python Core', 'Boto3 SDK', 'AWS CLI'].map(item => (
                       <div key={item} className="flex items-center justify-between gap-3 px-4 py-3 rounded-lg border transition-all duration-300 hover:scale-[1.02]" style={{ background: 'rgba(230,57,70,0.04)', borderColor: 'rgba(230,57,70,0.15)' }}>
                         <span className="text-white text-sm font-medium">{item}</span>
                         <div className="w-1.5 h-1.5 rounded-full animate-pulse" style={{ background: '#e63946' }} />
@@ -104,7 +104,7 @@ export default function HeroSection() {
                     </div>
                     <div className="w-full rounded-xl p-5 text-center" style={{ background: 'linear-gradient(135deg, rgba(230,57,70,0.12), rgba(184,32,45,0.06))', border: '1.5px solid rgba(230,57,70,0.4)', boxShadow: '0 0 30px rgba(230,57,70,0.12)' }}>
                       <div className="text-primary text-xs font-semibold tracking-widest uppercase mb-2">Core Engine</div>
-                      <div className="text-white text-lg font-black mb-1">Python Bootcamp</div>
+                      <div className="text-white text-lg font-black mb-1">Python With AWS Cloud</div>
                       <div className="text-text-secondary text-xs mb-4">LinuxWorld Pvt. Ltd</div>
                       <div className="flex items-center justify-center gap-4 text-xs">
                         {[['10', 'Days'], ['20h+', 'Hands-On'], ['100%', 'Practical']].map(([v, l], i) => (
@@ -127,7 +127,7 @@ export default function HeroSection() {
                   {/* Output Layer */}
                   <div className="flex flex-col gap-3">
                     <div className="text-text-secondary/50 text-xs font-mono uppercase tracking-widest mb-1 text-center md:text-right">Output Layer</div>
-                    {['Real Applications', 'Portfolio Ready', 'Certification'].map(item => (
+                    {['EC2 Automation', 'S3 & Lambda', 'AI Services'].map(item => (
                       <div key={item} className="flex items-center justify-between gap-3 px-4 py-3 rounded-lg border transition-all duration-300 hover:scale-[1.02]" style={{ background: 'rgba(230,57,70,0.04)', borderColor: 'rgba(230,57,70,0.15)' }}>
                         <span className="text-white text-sm font-medium">{item}</span>
                         <div className="w-1.5 h-1.5 rounded-full animate-pulse" style={{ background: '#e63946', animationDelay: '0.5s' }} />

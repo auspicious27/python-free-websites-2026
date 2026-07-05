@@ -2,9 +2,9 @@ import AnimatedSection from '../ui/AnimatedSection'
 import SectionHeading from '../ui/SectionHeading'
 
 const steps = [
-  { number: '01', title: 'Concept Learning', desc: 'Understand new Python concepts through simple explanations and live demonstrations.', detail: 'Build the mental model first — clear, simple, no jargon.', color: '#e63946' },
-  { number: '02', title: 'Hands-On Coding', desc: 'Practice each concept immediately with guided coding exercises. Type every line yourself.', detail: 'Muscle memory is how real programmers learn.', color: '#ff4d5a' },
-  { number: '03', title: 'Daily Project', desc: 'Build one complete application using only the concepts covered so far.', detail: 'Ship a working app every single day. That\'s the goal.', color: '#e63946' },
+  { number: '01', title: 'Learn Python + AWS', desc: 'Days 1-4: Master Core Python programming. Days 5-10: Automate AWS Cloud infrastructure with Boto3.', detail: 'Build the mental model of using Python as a cloud automation weapon.', color: '#e63946' },
+  { number: '02', title: 'Automate Real Cloud Infra', desc: 'Launch EC2 instances, manage S3 buckets, trigger Lambda functions, send SNS notifications — all with Python code.', detail: 'Every session is a lab. You ship working AWS automation, not just exercises.', color: '#ff4d5a' },
+  { number: '03', title: 'Build Production Systems', desc: 'Health monitoring, backup automation, cloud inventory managers, AI-powered apps — production-grade projects.', detail: 'Graduate with skills to run cloud operations at any scale.', color: '#e63946' },
 ]
 
 export default function HowItWorksSection() {
@@ -14,7 +14,7 @@ export default function HowItWorksSection() {
       <div className="max-w-5xl mx-auto relative z-10">
         <AnimatedSection>
           <div className="flex flex-col items-center mb-16 text-center">
-            <SectionHeading label="How It Works" title="Learn. Code. Build. Repeat." highlight="Build." subtitle="Three phases every day that take you from concept to working application." />
+            <SectionHeading label="How It Works" title="Python → AWS → Production." highlight="Production." subtitle="Three phases that take you from zero to deploying real cloud automation." />
           </div>
         </AnimatedSection>
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
