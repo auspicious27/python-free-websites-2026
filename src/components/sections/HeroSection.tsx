@@ -21,7 +21,7 @@ export default function HeroSection() {
 
         {/* Headline */}
         <div className="text-center mb-6">
-          <h1 className="text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-black tracking-tight">
+          <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl font-black tracking-tight">
             <span className="block text-text-primary leading-tight">Your Future Starts With</span>
             <span className="block pb-2" style={{ background: 'linear-gradient(135deg, #e63946 0%, #ff4d5a 50%, #ffffff 80%, #e63946 100%)', backgroundSize: '300% auto', WebkitBackgroundClip: 'text', WebkitTextFillColor: 'transparent', backgroundClip: 'text', animation: 'shimmer 4s linear infinite', filter: 'drop-shadow(0 0 30px rgba(230,57,70,0.4))', lineHeight: '1.1' }}>
               Python + AWS Cloud

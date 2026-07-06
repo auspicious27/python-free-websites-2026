@@ -55,3 +55,26 @@ body {
     transition-duration: 0.01ms !important;
   }
 }
+
+/* ===== MOBILE RESPONSIVE FIXES ===== */
+@media (max-width: 768px) {
+  .hero-title-responsive {
+    font-size: 2.5rem !important;
+  }
+
+  section {
+    padding-left: 12px;
+    padding-right: 12px;
+  }
+}
+
+@media (max-width: 480px) {
+  h1 {
+    font-size: 2.2rem !important;
+    line-height: 1.15 !important;
+  }
+
+  h2 {
+    font-size: 1.8rem !important;
+  }
+}

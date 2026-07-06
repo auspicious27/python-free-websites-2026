@@ -51,7 +51,7 @@ export default function WhatYouBuildSection() {
               </div>
 
               {/* Typing Code */}
-              <div className="p-6 min-h-[260px]">
+              <div className="p-4 sm:p-6 min-h-[240px] overflow-x-auto">
                 <TypewriterCode lines={codeLines} typingSpeed={30} lineDelay={350} />
               </div>
 

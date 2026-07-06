@@ -70,7 +70,7 @@ export default function TypewriterCode({ lines, typingSpeed = 40, lineDelay = 30
   }, [displayedLines.length, isComplete])
 
   return (
-    <div className="font-mono text-sm leading-[2.2]">
+    <div className="font-mono text-xs sm:text-sm leading-[2.2]">
       {displayedLines.map((line, i) => (
         <div key={i} className="flex items-start">
           <span className={lines[i]?.className || 'text-text-secondary'}>
